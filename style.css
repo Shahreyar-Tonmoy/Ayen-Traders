@@ -8,7 +8,7 @@
 }
 .manu-container{
     display: flex;
-    background-color: gray;
+    background-color: rgb(229, 177, 177);
     padding: -10px;
     align-items: center;
     list-style: none;
@@ -36,6 +36,7 @@
     background-color: red;
     border-style: none;
     border-radius: 0px 15px;
+    cursor: pointer;
 }
 .banner-img{
     width: 400px;
@@ -45,7 +46,9 @@
     justify-content: space-around;
     height: 100vh;
     align-items: center;
-
+    /*background-image: url(./image/download-removebg-preview.png);
+    background-color: black;*/
+    background-color:rgb(252, 244, 244);
 }
 .href{
     text-decoration: none;
@@ -56,11 +59,91 @@
     align-items: center;
     flex-direction:row-reverse;
     padding: 10px;
+    background-color: rgb(255, 255, 255);
 }
 .about-title{
     text-align: center;
     padding-top:20px;
-}
+    }
 .banner2photo{
     width: 500px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top:10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 5px;
+}
+.company-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px ;
+    
+}
+.btn{
+    padding:10px 20px;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 0px 15px;
+    
+}
+.box{
+    width: 230px;
+    height: 310px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: rgb(241, 212, 212);
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+   
+}
+.icon{
+    width: 70px;
+}
+.box-size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-{
+    width: 200px;
+}
+
+.color{
+    background-color: rgb(218, 128, 128);
+}
+.footer-ayen{
+    display: flex;
+    padding: 80px;
+    color: white;
+    background-color: rgb(29, 28, 28);
+    align-items: center;
+    justify-content: space-between;
+}
+.items-about{
+    list-style: none;
+}
+hr{
+    color: #fff;
+    width: 50%;
+    align-items: center;
+    margin-left: 400px;
+}
+.end{
+    width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(29, 28, 28);
+  color: #fff;
+}
+.Copyright{
+    margin-left: 37.5%;
+    padding-top: 5px;
 }
